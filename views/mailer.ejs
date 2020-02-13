@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css" integrity="sha256-7stu7f6AB+1rx5IqD8I+XuIcK4gSnpeGeSjqsODU+Rk=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js" integrity="sha256-gh5oDg46rxRDr9QF4nehk1UNULQ05EhbM9wOerElwRc=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/public/css/mailer_css1.css" />
+     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>50gramm</title>
+
+
+</head>
+
+<body>
+  <div class="leftspace"></div>
+  <div class="rightspace"></div>
+  <div class="mn-cnn">
+  <div class="mn-cn">
+    <div class="greeting">HELLO!</div>
+    <div class="greeting1">Nice to see you</div>
+    <div class="tech">     Under you can find the <br>technologies that are used here</div>
+<div class="tech1">
+  <ul
+class="specialities clearfix"><li>Node Js</li><li>Express</li><li>Html</li><li>Css</li></ul>
+</div>
+    <header>
+    <div class="addnav">
+    <ul class="navig">
+    <li class="active" id="li1">
+      <div class="signout">
+      <form>
+      <input type="button" class="btn btn-dark" value="Sign Out" onClick='location.href="/index"'></div>
+      </form>    <li id="li2">Kvak Sebastian - Special for you.</li>
+
+    <li id="li3">        <img src="http://iconshow.me/media/images/Mixed/Free-Flat-UI-Icons/png/512/mail-24-512.png" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+</li>
+    </ul>
+    </div>
+    </header>
+
+<div class="main-mailer">
+  <div class="addemail">       <a href="upd" class="btn btn-dark" >Update my email</a></li>
+
+</div>
+<div class="adduser"> <a href="add" class="btn btn-dark" >Add user</a></li>
+</div>
+  <form   method="post"  ref='uploadForm' encType="multipart/form-data" action="mailer" >
+  <div class="form-group"  id="exampleInputEmail1">
+
+       <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Введіть ім'я  отримувача" name="email"  id="multipleInput"  data-activates="multipleDropdown" data-beloworigin="true" >
+                           </div>
+                           <div class="play">
+                           <div class="example">
+
+                               <select id="boot-multiselect-demo" multiple="multiple" name="mul">
+                                      <option value="kvaksebastian@gmail.com">kvaksebastian@gmail.com  admin</option>
+
+                              </select>
+
+
+
+                           </div></div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" name="subject" id="exampleInputPassword1" placeholder="Тема повідомлення">
+  </div>
+  <div class="form-group">
+      <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="11" placeholder="Тут має бути ваш текст.Думайте."></textarea>
+    </div>
+    <div  id="paste_photo">
+  <input type="file" name="sampleFile" multiple accept="">
+</div>
+  <button type="submit" class="btn btn-light" id="sendmessage"><img src="https://vignette.wikia.nocookie.net/besit/images/c/cc/Peppapig004-by-convitex.png/revision/latest?cb=20160321212539&path-prefix=ru" width="30" height="30"></button>
+</form>
+</div>
+</div>
+</div>
+
+<footer><div class="copyright"><p>All rights reserved!<p></div></fotter>
+  <script type="text/javascript">
+
+      $(document).ready(function() {
+          $('#boot-multiselect-demo').multiselect({
+          includeSelectAllOption: true,
+          buttonWidth: 250,
+          enableFiltering: true
+      });
+      });
+  </script>
+  <script>
+  // String values; can be used as name, id, or innerHTML
+var valsA = <%-arr%>;
+var t = <%-index%>;
+// Variable to store <option> object
+var opt;
+
+// Loop through vals and make an <option> for each one
+for(var i=0;i<valsA.length;i++) {
+  // Create node
+  opt = document.createElement("OPTION");
+  // Set innerHTML, if you want
+  opt.innerHTML = valsA[i];
+  // Set the names to be all the same, if you want
+  // Set unique ID, somehow, if you want
+  opt.value =  t[i];
+
+  // Finally, append <option> to dropdown menu
+  document.getElementById('boot-multiselect-demo').appendChild(opt);
+}
+  </script>
+
+</body>
+</html>

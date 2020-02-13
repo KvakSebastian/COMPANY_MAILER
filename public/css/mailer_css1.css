@@ -1,0 +1,201 @@
+*{
+  color: #717171;
+  font-family: 'Poiret One', cursive;
+
+}
+.main-mailer {
+     width: 80%;
+         height: 70%;
+     right: -7%;
+     position: absolute;
+     top:15%;
+     border: none;
+}
+.signout{
+    background: #3f3f3f;
+}
+#sendmessage{
+  position: absolute;
+  left:69%;
+ bottom: 6%;
+}
+#exampleInputEmail1{
+  top:2%;
+  position: absolute;
+  width: 19%;
+  left:5%;
+  height: : 8%;
+}
+.play{
+  top:2%;
+  position: absolute;
+  width: 25%;
+  left:24.5%;
+  height: : 8%;
+}
+.addemail{
+  top:2%;
+  position: absolute;
+  width: 13%;
+  left:55%;
+  height: : 10%;
+  background: #3f3f3f;  font-weight: 900;
+
+}
+.addemail a{
+  color: #808080;font-weight: 900;
+}
+.adduser{
+  top:12%;
+  position: absolute;
+  width: 8%;
+  left:57.5%;
+  height: : 10%;
+  background: #3f3f3f;  font-weight: 900;
+
+}
+.adduser a{
+  color: #808080;font-weight: 900;
+}
+#exampleInputPassword1{
+  top:12%;
+  position: absolute;
+  width: 45%;
+  left:5%;
+  height: : 8%;
+
+}
+
+
+#exampleFormControlTextarea1{
+  top: 24%;
+  position: absolute;
+  width: 70%;
+  left:5%;
+}
+#paste_photo{
+  bottom :10%;
+  position: absolute;
+  left:5%;
+}
+
+
+.mn-cn{
+  position: absolute;
+  background-color:#e1e1e1;
+  width: 90%;
+  right: 5%;
+  height: 90%;
+}
+.mn-cnn{
+}
+div.addnav {
+	float:right;
+}
+
+
+.addnav {
+	font-family: 'Roboto', sans-serif;
+	background-color: #3f3f3f;
+    height: 50px;
+	position: absolute;
+	top:0;
+  width: 100%;
+  right: 0%;
+
+
+}
+#li1{
+  position: absolute;
+  top:-5%;
+right: -1%;font-weight: 900;
+  color: #808080; }
+#li3{
+  position: absolute;
+  left:48%;
+  font-weight: 900;
+}
+#li2{
+  position: absolute;
+  left: 2%;
+  font-weight: 900;
+}
+.addnav li {
+	list-style: none;
+	text-decoration: none;
+	float:right;
+    padding-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #808080;
+    margin: 8px 60px 0 20px;
+
+}
+.addnav li a {
+	    color: #808080;
+
+
+}
+
+.container{
+  top:10%;
+}
+.mn{top:10%;
+position: absolute;
+right:2%;}
+.leftspace{
+  position: absolute;
+  width: 5%;
+  height:100%;
+  background-color: #c1c1c1;
+  left: 0%;
+}
+.rightspace{
+  position: absolute;
+  width: 5%;
+  height:100%;
+  background-color: #c1c1c1;
+  right: 0%;
+}
+.greeting{
+  position: absolute;
+  top:24%;
+  font-size: 44px;
+  left: 7%;
+}
+.greeting1{
+  position: absolute;
+  top:32%;
+  font-size: 36px;
+  left: 3%;
+}
+.tech{
+  position: absolute;
+  top:45%;
+  font-size: 16px;
+  left: 3%;
+  text-align: center;
+}
+.tech1{
+  position: absolute;
+  top:65%;
+  font-size: 16px;
+  left: 3%;
+  list-style: none;
+ column-count: 2;
+ height: 10%;
+}
+.copyright{
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+  width: 90%;
+  height: 10%;
+  background-color: #3f3f3f;
+  text-align: center;
+}
+.copyright p{
+  margin-top: 2%;
+  font-size: 16px;
+  font-weight: 900;
+}

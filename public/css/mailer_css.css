@@ -1,0 +1,45 @@
+
+.main-mailer {
+     width: 80%;
+         height: 70%;
+     border: solid 1px black;
+     right: 10%;
+     position: absolute;
+     top:15%;
+background: linear-gradient(to bottom, #270808, #510656)
+}
+#sendmessage{
+  position: absolute;
+  left:90%;
+ bottom: 2%;
+}
+#exampleInputEmail1{
+  top:2%;
+  position: absolute;
+  width: 90%;
+  left:5%;
+  height: : 8%;
+}
+#exampleInputPassword1{
+  top:12%;
+  position: absolute;
+  width: 90%;
+  left:5%;
+  height: : 8%;
+
+}
+#exampleFormControlTextarea1{
+  top: 24%;
+  position: absolute;
+  width: 90%;
+  left:5%;
+}
+#paste_photo{
+  bottom :2%;
+  position: absolute;
+  left:5%;
+}
+body{
+  background-image: url('https://images.alphacoders.com/287/287073.jpg');
+
+}
